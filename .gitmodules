@@ -1,0 +1,3 @@
+[submodule "intocps-ui"]
+	path = intocps-ui
+	url = git@github.com:into-cps/intocps-ui.git
