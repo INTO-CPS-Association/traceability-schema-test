@@ -12,4 +12,6 @@ os.chdir("../")
 os.chdir("intocps-ui/scripts")
 path='../../tool-output/'
 for filename in os.listdir(path):
-	os.system("python val_oslc.py --dir " + os.path.join(path,filename))
+	toolPath = os.path.join(path,filename)
+	for filename in os.listdir(toolPath):
+		os.system("python val_oslc.py --dir " + os.path.join(toolPath,filename))
