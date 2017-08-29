@@ -15,3 +15,4 @@ for filename in os.listdir(path):
 	toolPath = os.path.join(path,filename)
 	for filename in os.listdir(toolPath):
 		os.system("python val_oslc.py --dir " + os.path.join(toolPath,filename))
+
