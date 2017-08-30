@@ -1,0 +1,37 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.3", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineTestModel:2017-08-30T08:57:38Z#0a44d8d3-1343-47c3-ada4-2652a95f0e49", 
+                "time": "2017-08-30T08:57:38Z", 
+                "type": "defineTestModel"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "48b16f36ff07d7c6fc0324b30e5a7d8c", 
+                "path": "/home/oli/RTT-Prj/turn-ind-modelio", 
+                "rdf:about": "Entity.Testmodel:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind_DASH_modelio/model/model_DASH_details.html_PLUS_turn_DASH_ind_DASH_modelio/model/model_DASH_testcases.html_PLUS_turn_DASH_ind_DASH_modelio/model/last_imported_model.xmi#187f22c6655a72ff259c91add4f99f3ba66b8041", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
