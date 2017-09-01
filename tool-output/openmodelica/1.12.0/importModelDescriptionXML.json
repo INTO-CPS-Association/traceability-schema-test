@@ -1,0 +1,64 @@
+{
+  "rdf:RDF": {
+    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xmlns:prov": "http://www.w3.org/ns/prov#",
+    "messageFormatVersion": "1.3",
+    "prov:Entity": [
+      {
+        "rdf:about": "Entity.softwareTool:OpenModelica: v1.12.0-dev-423-gd84ea13 (64-bit)",
+        "type": "Simulation Tool",
+        "version": "OpenModelica",
+        "name": "OpenModelica"
+      },
+      {
+        "rdf:about": "Entity.modelFile:OpenModelica/Models/SensorBlock1_Input_Output_FMU.mo#ef6dfd88b06b67d3ba7c541628f038baf91a7c98",
+        "type": "modelDescriptionFile",
+        "path": "OpenModelica/Models/SensorBlock1_Input_Output_FMU.mo",
+        "hash": "ef6dfd88b06b67d3ba7c541628f038baf91a7c98",
+        "prov:wasAttributedTo": {
+          "prov:Agent": {
+            "rdf:about": "Agent:alachew.mengist@liu.se"
+          }
+        },
+        "prov:wasGeneratedBy": {
+          "prov:Activity": {
+            "rdf:about": "Activity.modelDescriptionImport:2017-08-31T14:41:29Z#74e7f8c9-5e01-4c30-9e53-b8acd514de16"
+          }
+        },
+        "prov:wasDerivedFrom": {
+          "prov:Entity": [
+            {
+              "rdf:about": "Entity.modelDescriptionFile:OpenModelica/ModelDescriptionXML/modelDescription.xml#e3f9169ec2f6be4b321d2dd278d16f1b6a81e28a"
+            }
+          ]
+        }
+      }
+    ],
+    "prov:Agent": [
+      {
+        "rdf:about": "Agent:alachew.mengist@liu.se",
+        "name": "Alachew",
+        "email": "alachew.mengist@liu.se"
+      }
+    ],
+    "prov:Activity": [
+      {
+        "time": "2016-09-19T13:53:06Z",
+        "type": "modelDescriptionImport",
+        "prov:wasAssociatedWith": {
+          "prov:Agent": {
+            "rdf:about": "Agent:alachew.mengist@liu.se"
+          }
+        },
+        "prov:used": {
+          "prov:Entity": [
+            {
+              "rdf:about": "Entity.softwareTool:OpenModelica: v1.12.0-dev-423-gd84ea13 (64-bit)"
+            }
+          ]
+        },
+        "rdf:about": "Activity.modelDescriptionImport:2017-08-31T14:41:29Z#74e7f8c9-5e01-4c30-9e53-b8acd514de16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "rdf:RDF": {
+    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xmlns:prov": "http://www.w3.org/ns/prov#",
+    "messageFormatVersion": "1.3",
+    "prov:Entity": [
+      {
+        "rdf:about": "Entity.softwareTool:OpenModelica: v1.12.0-dev-423-gd84ea13 (64-bit)",
+        "type": "Simulation Tool",
+        "version": "OpenModelica",
+        "name": "OpenModelica"
+      },
+      {
+        "rdf:about": "Entity.modelFile:OpenModelica/Models/SensorBlock1_me_FMU.mo#15682630d209fa0d81815cfb7c621401fdf1a2cb",
+        "type": "fmu",
+        "path": "OpenModelica/Models/SensorBlock1_me_FMU.mo",
+        "hash": "15682630d209fa0d81815cfb7c621401fdf1a2cb",
+        "prov:wasAttributedTo": {
+          "prov:Agent": {
+            "rdf:about": "Agent:alachew.mengist@liu.se"
+          }
+        },
+        "prov:wasGeneratedBy": {
+          "prov:Activity": {
+            "rdf:about": "Activity.fmuImport:2017-08-31T14:36:24Z#b2f53929-ab38-40f8-b197-220d7fabf99a"
+          }
+        },
+        "prov:wasDerivedFrom": {
+          "prov:Entity": [
+            {
+              "rdf:about": "Entity.fmu:OpenModelica/FMUs/SensorBlock1.fmu#0763808c57918c6f28e6f9a1d0368070524e59fe"
+            }
+          ]
+        }
+      }
+    ],
+    "prov:Agent": [
+      {
+        "rdf:about": "Agent:alachew.mengist@liu.se",
+        "name": "Alachew",
+        "email": "alachew.mengist@liu.se"
+      }
+    ],
+    "prov:Activity": [
+      {
+        "time": "2016-09-19T13:53:06Z",
+        "type": "fmuImport",
+        "prov:wasAssociatedWith": {
+          "prov:Agent": {
+            "rdf:about": "Agent:alachew.mengist@liu.se"
+          }
+        },
+        "prov:used": {
+          "prov:Entity": [
+            {
+              "rdf:about": "Entity.softwareTool:OpenModelica: v1.12.0-dev-423-gd84ea13 (64-bit)"
+            }
+          ]
+        },
+        "rdf:about": "Activity.fmuImport:2017-08-31T14:36:24Z#b2f53929-ab38-40f8-b197-220d7fabf99a"
+      }
+    ]
+  }
+}
