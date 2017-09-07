@@ -1,0 +1,99 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.4", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-003#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-004#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/last_imported_model.xmi#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/model_DASH_details.html#3959b3a85f88b606e78efd73f3fc081c68d91376"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/model_DASH_testcases.html#fdfa44810916ca56701c28dd60fdbeb759717616"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineTestModel:2017-09-07T15:40:30Z#9181a654-0d6f-48f6-8e7e-08ad51b2a671", 
+                "time": "2017-09-07T15:40:30Z", 
+                "type": "defineTestModel"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "233023d85d2c95b71418b72c3a0cf29d", 
+                "path": "/home/oli/RTT-Prj/water-t3", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestModel:2017-09-07T15:40:30Z#9181a654-0d6f-48f6-8e7e-08ad51b2a671"
+                    }
+                }, 
+                "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/last_imported_model.xmi#b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "type": "file"
+            }, 
+            {
+                "hash": "b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-001#b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-002#b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-003#b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-004#b6ec8d5036967c21f55510e7066dc2b0debf5b53", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "3959b3a85f88b606e78efd73f3fc081c68d91376", 
+                "path": "water-t3/model/model-details.html", 
+                "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/model_DASH_details.html#3959b3a85f88b606e78efd73f3fc081c68d91376", 
+                "type": "file"
+            }, 
+            {
+                "hash": "fdfa44810916ca56701c28dd60fdbeb759717616", 
+                "path": "water-t3/model/model-testcases.html", 
+                "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/model_DASH_testcases.html#fdfa44810916ca56701c28dd60fdbeb759717616", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
