@@ -1,0 +1,332 @@
+{"rdf:RDF": {
+    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xmlns:prov": "http://www.w3.org/ns/prov#",
+    "messageFormatVersion": "1.4",
+    "prov:Agent": [
+        {
+        "rdf:about": "Agent:vpb500@york.ac.uk",
+        "name": "Victor Bandur",
+        "email": "vpb500@york.ac.uk"
+        },
+        {
+        "rdf:about": "Agent:richard.payne@newcastle.ac.uk",
+        "name": "Richard Payne",
+        "email": "richard.payne@newcastle.ac.uk"
+        },
+        {
+        "rdf:about": "Agent:kgpierce@gmail.com",
+        "name": "Ken Pierce",
+        "email": "kgpierce@gmail.com"
+        }
+    ],
+    "prov:Entity": [
+        {
+        "rdf:about": "Entity.softwareTool:Overture:2.4.0",
+        "version": "2.4.0",
+        "type": "Simulation Tool",
+        "name": "Overture"
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/lib/Fmi.vdmrt#bba86a5beb725393f89fecd683f61e79d4b02509",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/ced38f915cc09755ebd1e9580d871f3d1f34c1a7/Models/LFRController/lib/Fmi.vdmrt",
+        "path": "Models/LFRController/lib/Fmi.vdmrt",
+        "hash": "bba86a5beb725393f89fecd683f61e79d4b02509",
+        "commit": "ced38f915cc09755ebd1e9580d871f3d1f34c1a7",
+        "comment": "Removed \"create\" function from Port class.  This will be removed",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-23T12:58:46Z#6982112f-cee5-440a-b489-45e8b8d826ef"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/lib/Fmi.vdmrt#ed0dd30ee3ceee97712c4750f074089e2a8beb81"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#9484ffcba96b0c3ce08c5bff2c904b86f7c5539e",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/dbf51a823b31cb1f75f0fb57a8d633418ab517e9/Models/LFRController/HardwareInterface.vdmrt",
+        "path": "Models/LFRController/HardwareInterface.vdmrt",
+        "hash": "9484ffcba96b0c3ce08c5bff2c904b86f7c5539e",
+        "commit": "dbf51a823b31cb1f75f0fb57a8d633418ab517e9",
+        "comment": "Removed static qualifier from instance variables and values.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-15T10:40:20Z#12390619-5557-4392-a3b1-742c16032257"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#5886a8b62a5935fa38e7147e37d166e2d74c56b5"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/lib/Reflect.vdmrt#0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/lib/Reflect.vdmrt",
+        "path": "Models/LFRController/lib/Reflect.vdmrt",
+        "hash": "0",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/lib/Reflect.vdmrt#a9d237d2530deea0c71b11a8eff8fb3809165848"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/Controller.vdmrt#83bba4d2c97e9b0cbef72fe4930de3d77c664768",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/Controller.vdmrt",
+        "path": "Models/LFRController/Controller.vdmrt",
+        "hash": "83bba4d2c97e9b0cbef72fe4930de3d77c664768",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/Controller.vdmrt#83bba4d2c97e9b0cbef72fe4930de3d77c664768"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#5886a8b62a5935fa38e7147e37d166e2d74c56b5",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/HardwareInterface.vdmrt",
+        "path": "Models/LFRController/HardwareInterface.vdmrt",
+        "hash": "5886a8b62a5935fa38e7147e37d166e2d74c56b5",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#5886a8b62a5935fa38e7147e37d166e2d74c56b5"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/RobotSensor.vdmrt#835a13e73e7c2af6aa82883c6ea8c2529f6af78e",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/RobotSensor.vdmrt",
+        "path": "Models/LFRController/RobotSensor.vdmrt",
+        "hash": "835a13e73e7c2af6aa82883c6ea8c2529f6af78e",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/RobotSensor.vdmrt#835a13e73e7c2af6aa82883c6ea8c2529f6af78e"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/RobotServo.vdmrt#f495739994c23a84c8f585919ba3ea9565d0b717",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/RobotServo.vdmrt",
+        "path": "Models/LFRController/RobotServo.vdmrt",
+        "hash": "f495739994c23a84c8f585919ba3ea9565d0b717",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/RobotServo.vdmrt#f495739994c23a84c8f585919ba3ea9565d0b717"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/System.vdmrt#1896f0d191d42dbd9fbd1e5268764e6102f41a00",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/System.vdmrt",
+        "path": "Models/LFRController/System.vdmrt",
+        "hash": "1896f0d191d42dbd9fbd1e5268764e6102f41a00",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/System.vdmrt#1896f0d191d42dbd9fbd1e5268764e6102f41a00"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/World.vdmrt#7f7875076e791392a5023cfccba01e8ebfec823c",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/World.vdmrt",
+        "path": "Models/LFRController/World.vdmrt",
+        "hash": "7f7875076e791392a5023cfccba01e8ebfec823c",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/World.vdmrt#7f7875076e791392a5023cfccba01e8ebfec823c"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/lib/Fmi.vdmrt#ed0dd30ee3ceee97712c4750f074089e2a8beb81",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/16611376c24f0b4d3bf02093657a939e72d38f26/Models/LFRController/lib/Fmi.vdmrt",
+        "path": "Models/LFRController/lib/Fmi.vdmrt",
+        "hash": "ed0dd30ee3ceee97712c4750f074089e2a8beb81",
+        "commit": "16611376c24f0b4d3bf02093657a939e72d38f26",
+        "comment": "Updated VDM-RT model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#17e60e76c51f2d624e4e60cfcc2a67c8588d023e",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/f262286d95940bbe06c1c2e7521917d5fd0704a6/Models/LFRController/HardwareInterface.vdmrt",
+        "path": "Models/LFRController/HardwareInterface.vdmrt",
+        "hash": "17e60e76c51f2d624e4e60cfcc2a67c8588d023e",
+        "commit": "f262286d95940bbe06c1c2e7521917d5fd0704a6",
+        "comment": "Merge remote-tracking branch 'refs/remotes/origin/kgp/0.1.1'",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-31T13:10:07Z#3a273012-8088-42e6-a229-cc1e7e59a912"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#ffc10f634c961d05a4df51cbae374f453e422ec5"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/lib/Fmi.vdmrt#0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/lib/Fmi.vdmrt",
+        "path": "Models/LFRController/lib/Fmi.vdmrt",
+        "hash": "0",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/lib/Fmi.vdmrt#ed0dd30ee3ceee97712c4750f074089e2a8beb81"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#ffc10f634c961d05a4df51cbae374f453e422ec5",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/HardwareInterface.vdmrt",
+        "path": "Models/LFRController/HardwareInterface.vdmrt",
+        "hash": "ffc10f634c961d05a4df51cbae374f453e422ec5",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#f6eb0de33daf8991f132df0fe2498e31bb082410"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/RobotSensor.vdmrt#a851adc81814ef9fea722c1ee3228ef3d1c6cde9",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/RobotSensor.vdmrt",
+        "path": "Models/LFRController/RobotSensor.vdmrt",
+        "hash": "a851adc81814ef9fea722c1ee3228ef3d1c6cde9",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/RobotSensor.vdmrt#835a13e73e7c2af6aa82883c6ea8c2529f6af78e"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/RobotServo.vdmrt#17ad2d9458d5038c1130adb2294b21f26402a847",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/RobotServo.vdmrt",
+        "path": "Models/LFRController/RobotServo.vdmrt",
+        "hash": "17ad2d9458d5038c1130adb2294b21f26402a847",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/RobotServo.vdmrt#f495739994c23a84c8f585919ba3ea9565d0b717"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/System.vdmrt#9515df339770dd00a9c04abc2c067b45a4741fd2",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/System.vdmrt",
+        "path": "Models/LFRController/System.vdmrt",
+        "hash": "9515df339770dd00a9c04abc2c067b45a4741fd2",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/System.vdmrt#1896f0d191d42dbd9fbd1e5268764e6102f41a00"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/lib/Reflect.vdmrt#a9d237d2530deea0c71b11a8eff8fb3809165848",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/77625e7b47c54ad0289a7a1b856d27750cc9c588/Models/LFRController/lib/Reflect.vdmrt",
+        "path": "Models/LFRController/lib/Reflect.vdmrt",
+        "hash": "a9d237d2530deea0c71b11a8eff8fb3809165848",
+        "commit": "77625e7b47c54ad0289a7a1b856d27750cc9c588",
+        "comment": "Revert \"Upgrading VDM model to OO interface\"",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#f6eb0de33daf8991f132df0fe2498e31bb082410",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/0e1de1d9dfcdf8660c6794895f25da7edd3da8d0/Models/LFRController/HardwareInterface.vdmrt",
+        "path": "Models/LFRController/HardwareInterface.vdmrt",
+        "hash": "f6eb0de33daf8991f132df0fe2498e31bb082410",
+        "commit": "0e1de1d9dfcdf8660c6794895f25da7edd3da8d0",
+        "comment": "Upgrading VDM model to OO interface",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-15T20:27:40Z#db19fb32-6b32-4420-84a7-f141797f98e2"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/LFRController/HardwareInterface.vdmrt#ffc10f634c961d05a4df51cbae374f453e422ec5"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/LFRController/Controller.vdmrt#a7f2e206ca570f8c0ff9556c9f74df698d2b637d",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_line_follower_robot/72abbee11ca37b801dc4edf9f64349d0f4a1ce4a/Models/LFRController/Controller.vdmrt",
+        "path": "Models/LFRController/Controller.vdmrt",
+        "hash": "a7f2e206ca570f8c0ff9556c9f74df698d2b637d",
+        "commit": "72abbee11ca37b801dc4edf9f64349d0f4a1ce4a",
+        "comment": "Adding FMUs, models and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T07:16:15Z#4ce41733-e08e-4d4a-809f-9c6f6fb8e02c"}},
+        "prov:hasMember": []
+        }
+    ],
+    "prov:Activity": [
+        {
+        "rdf:about": "Activity.modelModification:2016-11-23T12:58:46Z#6982112f-cee5-440a-b489-45e8b8d826ef",
+        "time": "2016-11-23T12:58:46Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-11-15T10:40:20Z#12390619-5557-4392-a3b1-742c16032257",
+        "time": "2016-11-15T10:40:20Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-10-26T12:15:03Z#11aa3baf-08d1-4f54-8f9b-098d2ee4a75d",
+        "time": "2016-10-26T12:15:03Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-08-31T13:10:07Z#3a273012-8088-42e6-a229-cc1e7e59a912",
+        "time": "2016-08-31T13:10:07Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-08-18T10:21:01Z#423f2618-3923-4f4f-ace5-c7de2c53a55a",
+        "time": "2016-08-18T10:21:01Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-08-15T20:31:48Z#ec5e4ea2-77e7-4765-8453-25f231e2febc",
+        "time": "2016-08-15T20:31:48Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-08-15T20:27:40Z#db19fb32-6b32-4420-84a7-f141797f98e2",
+        "time": "2016-08-15T20:27:40Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:kgpierce@gmail.com"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-06-01T07:16:15Z#4ce41733-e08e-4d4a-809f-9c6f6fb8e02c",
+        "time": "2016-06-01T07:16:15Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        }
+    ]
+    }}

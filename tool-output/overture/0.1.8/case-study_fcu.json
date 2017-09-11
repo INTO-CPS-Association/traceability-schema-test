@@ -1,0 +1,943 @@
+{"rdf:RDF": {
+    "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xmlns:prov": "http://www.w3.org/ns/prov#",
+    "messageFormatVersion": "1.4",
+    "prov:Agent": [
+        {
+        "rdf:about": "Agent:richard.payne@newcastle.ac.uk",
+        "name": "Richard Payne",
+        "email": "richard.payne@newcastle.ac.uk"
+        },
+        {
+        "rdf:about": "Agent:vpb500@york.ac.uk",
+        "name": "Victor Bandur",
+        "email": "vpb500@york.ac.uk"
+        }
+    ],
+    "prov:Entity": [
+        {
+        "rdf:about": "Entity.softwareTool:Overture:2.4.0",
+        "version": "2.4.0",
+        "type": "Simulation Tool",
+        "name": "Overture"
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#53ff0aff8a6c09e753e4cf099a75dc47a09974b5",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/49d2f0673e2fcea1aefdbba675e791692973a329/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "53ff0aff8a6c09e753e4cf099a75dc47a09974b5",
+        "commit": "49d2f0673e2fcea1aefdbba675e791692973a329",
+        "comment": "Merge remote-tracking branch 'origin/master'",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-05-11T13:48:03Z#dd7d383a-f6ce-4408-8b2e-efa5955d4b4e"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#0811f049bf52251dad7170c5cdc93490c806e1e2"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#6593bc6b6716993432f1bc74daef13b378426d7d",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/49d2f0673e2fcea1aefdbba675e791692973a329/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "6593bc6b6716993432f1bc74daef13b378426d7d",
+        "commit": "49d2f0673e2fcea1aefdbba675e791692973a329",
+        "comment": "Merge remote-tracking branch 'origin/master'",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-05-11T13:48:03Z#dd7d383a-f6ce-4408-8b2e-efa5955d4b4e"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#a75e7fe6a8ea0961bf3c316071a5c7915becb4cd"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#03fc89cfad442fba8e9199cfa60429dbd759122b",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/5fd1deb17194f5acd4d86a17236729ae69abbcd2/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "03fc89cfad442fba8e9199cfa60429dbd759122b",
+        "commit": "5fd1deb17194f5acd4d86a17236729ae69abbcd2",
+        "comment": "Update to Overture tool wrapper FMU.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-03-28T14:58:23Z#1caf5cb4-8fc9-4f67-93b1-86d5235f7ed3"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#1abe6dc69e586a7e434208fc1a049f5556c0a227"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.softwareTool:fmu-import-export:0.2.1-SNAPSHOT",
+        "version": "0.2.1-SNAPSHOT",
+        "type": "Simulation Tool",
+        "name": "fmu-import-export"
+        },
+        {
+        "rdf:about": "Entity.file:FCUController.fmu#ce8057ec534ba2ddc5a800f1a1ec60ac039428d8",
+        "hash": "ce8057ec534ba2ddc5a800f1a1ec60ac039428d8",
+        "type": "fmu",
+        "path": "FCUController.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-03-28T13:35:18Z#b077264f-9f3c-42ad-9107-c35aee50be51"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#03fc89cfad442fba8e9199cfa60429dbd759122b"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController.fmu#59339ede1b6ec234c36880e170d1728f206e5dad",
+        "hash": "59339ede1b6ec234c36880e170d1728f206e5dad",
+        "type": "fmu",
+        "path": "FCUController.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-03-28T08:49:12Z#a286dd03-7b2c-4926-bbe0-b227e421cbe9"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#03fc89cfad442fba8e9199cfa60429dbd759122b"}}
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#c611abced8adf35c7e9e7b800099bf1f936343c5",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/cebfe630bc077b68ee83877d94cd7ba3631b0020/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "c611abced8adf35c7e9e7b800099bf1f936343c5",
+        "commit": "cebfe630bc077b68ee83877d94cd7ba3631b0020",
+        "comment": "Fix to way in which periodic thread period is specified.  Currently the",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-03-09T13:32:47Z#ae6a371a-1195-4814-bff1-7a3fc5a660fc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#3298bf86093f2c71a02e0a20b7d0c1c030fa0772"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/World.vdmrt#0fe09734d366f0947a1765c1c2bbbfe35274b5ff",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/cebfe630bc077b68ee83877d94cd7ba3631b0020/Models/FCUController/World.vdmrt",
+        "path": "Models/FCUController/World.vdmrt",
+        "hash": "0fe09734d366f0947a1765c1c2bbbfe35274b5ff",
+        "commit": "cebfe630bc077b68ee83877d94cd7ba3631b0020",
+        "comment": "Fix to way in which periodic thread period is specified.  Currently the",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-03-09T13:32:47Z#ae6a371a-1195-4814-bff1-7a3fc5a660fc"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/World.vdmrt#bc7f4b9b0b6d4cd6dd37f8380dcba94f48d20d96"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#0811f049bf52251dad7170c5cdc93490c806e1e2",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/1da8dcb80aca32a959093539d0050f63fb82712f/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "0811f049bf52251dad7170c5cdc93490c806e1e2",
+        "commit": "1da8dcb80aca32a959093539d0050f63fb82712f",
+        "comment": "Fixes to VDM-RT model and FMU",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-01-31T10:51:58Z#9459a355-7312-43cf-b7a6-07f2b6b6649c"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#a7b512dc931b64d9285c8cb614e9b89453f6cde3"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#a75e7fe6a8ea0961bf3c316071a5c7915becb4cd",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/1da8dcb80aca32a959093539d0050f63fb82712f/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "a75e7fe6a8ea0961bf3c316071a5c7915becb4cd",
+        "commit": "1da8dcb80aca32a959093539d0050f63fb82712f",
+        "comment": "Fixes to VDM-RT model and FMU",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-01-31T10:51:58Z#9459a355-7312-43cf-b7a6-07f2b6b6649c"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#5138d929ad695034dbd95106b117c46fc5223949"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.softwareTool:fmu-import-export:0.1.6",
+        "version": "0.1.6",
+        "type": "Simulation Tool",
+        "name": "fmu-import-export"
+        },
+        {
+        "rdf:about": "Entity.file:FCUController_Limited.fmu#d0af1f24f7753bae30072a5ec56c4047905229d",
+        "hash": "d0af1f24f7753bae30072a5ec56c4047905229d",
+        "type": "fmu",
+        "path": "FCUController_Limited.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-31T10:28:01Z#afcca389-87b3-426f-9baf-9fdd7b372a62"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#a75e7fe6a8ea0961bf3c316071a5c7915becb4cd"}}
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/10899bff2c8dd506a7c55aa0a4c9f8055005da16/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48",
+        "commit": "10899bff2c8dd506a7c55aa0a4c9f8055005da16",
+        "comment": "Merge branch 'vpb/fmu-export'",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-01-23T19:37:24Z#bb454da6-e3a8-4cd2-a9f0-a8fb7bfa1be7"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#257e51f842c4cbb0717eedf7b3b44fdd0946088f"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT",
+        "version": "0.1.7-SNAPSHOT",
+        "type": "Simulation Tool",
+        "name": "fmu-import-export"
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-SourceCode.fmu#2f0930cf4b28f289b0e9456c6354eaac632de51c",
+        "hash": "2f0930cf4b28f289b0e9456c6354eaac632de51c",
+        "type": "fmu",
+        "path": "FCUController-SourceCode.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T18:23:09Z#cbb03e9e-4b63-432d-99de-e0b366fa8ae0"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-Standalone.fmu#75296e5d1c9b2e6763343ab6ee24a8b32e6091ad",
+        "hash": "75296e5d1c9b2e6763343ab6ee24a8b32e6091ad",
+        "type": "fmu",
+        "path": "FCUController-Standalone.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T18:20:37Z#f52f7009-318f-4061-b421-d6a10149323a"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-Standalone.fmu#6684b3e444222e2f53d57c060ddeabe9a595813a",
+        "hash": "6684b3e444222e2f53d57c060ddeabe9a595813a",
+        "type": "fmu",
+        "path": "FCUController-Standalone.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T18:19:10Z#1187f8da-5acd-45db-9a93-4b03e113e801"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-Standalone.fmu#85c6afd46532bffec12ac9bcc82c9c4acac92c0d",
+        "hash": "85c6afd46532bffec12ac9bcc82c9c4acac92c0d",
+        "type": "fmu",
+        "path": "FCUController-Standalone.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T18:18:54Z#cb0eacf9-9c24-40be-a0b2-f0387fb9b9c5"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-SourceCode.fmu#66811b568860bb02041f9111ee04d50cececbd8e",
+        "hash": "66811b568860bb02041f9111ee04d50cececbd8e",
+        "type": "fmu",
+        "path": "FCUController-SourceCode.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T13:07:41Z#b8c816d9-c235-4d94-835d-ecdb6ce175a3"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-Standalone.fmu#3a1d70164602f70d0b3fe779dc42c7eb7face331",
+        "hash": "3a1d70164602f70d0b3fe779dc42c7eb7face331",
+        "type": "fmu",
+        "path": "FCUController-Standalone.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T12:39:46Z#7bbc4dec-de45-4147-bcae-866520d3db04"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FCUController-SourceCode.fmu#471bd5435cd6e884e537e2d98dac9d02a7ebd7bb",
+        "hash": "471bd5435cd6e884e537e2d98dac9d02a7ebd7bb",
+        "type": "fmu",
+        "path": "FCUController-SourceCode.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T12:34:21Z#660a8868-d302-4881-bf83-e50c419ecb19"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FMU.fmu#cd9ee5cd016ca2db03e6f4fb0143bb1d00ececf1",
+        "hash": "cd9ee5cd016ca2db03e6f4fb0143bb1d00ececf1",
+        "type": "fmu",
+        "path": "FMU.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T12:26:30Z#f5ea9432-37a7-4fdc-b579-4eb62414798d"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FMU.fmu#fab57ee6bf57d7f0b9bcc034ccc437df74006501",
+        "hash": "fab57ee6bf57d7f0b9bcc034ccc437df74006501",
+        "type": "fmu",
+        "path": "FMU.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T12:26:13Z#201bd80d-0f32-4cc0-8027-59f049b50a29"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FMU.fmu#42af21ebe1bbfbdc9f21be1fc8a2a9e2202ae7a5",
+        "hash": "42af21ebe1bbfbdc9f21be1fc8a2a9e2202ae7a5",
+        "type": "fmu",
+        "path": "FMU.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T12:05:05Z#299d609f-4917-4225-b8e6-0d36e9213ecb"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FMU.fmu#6f53770400e344c6928a2f13a2de291ac482f9d9",
+        "hash": "6f53770400e344c6928a2f13a2de291ac482f9d9",
+        "type": "fmu",
+        "path": "FMU.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T09:28:50Z#66b6eb1f-7170-4b7b-a046-52847a4adadd"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:FMU.fmu#f484341a1c3d1269f4b93b970d16fecd15dd38bf",
+        "hash": "f484341a1c3d1269f4b93b970d16fecd15dd38bf",
+        "type": "fmu",
+        "path": "FMU.fmu",
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.fmuExport:2017-01-23T09:27:33Z#9d8cc477-21f8-4ca4-a28b-ef30513199a4"}},
+        "prov:used": {"prov:Entity": {"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#60c2569b4cc7bf8a43cff02f6e604bcd5a44ef48"}}
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#1abe6dc69e586a7e434208fc1a049f5556c0a227",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/22cbda5763459e4dc866f9f60632111a7c2800c9/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "1abe6dc69e586a7e434208fc1a049f5556c0a227",
+        "commit": "22cbda5763459e4dc866f9f60632111a7c2800c9",
+        "comment": "Added Overture-exported source code FMU.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-01-23T19:26:54Z#26269613-4ba1-4b4c-8f7c-890e05fa65ac"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#1d7fdbb91b8718b565111607df48873b52330fa7"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#3298bf86093f2c71a02e0a20b7d0c1c030fa0772",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/9d7e3608a9d76f7c856af06e8367b48b519bb318/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "3298bf86093f2c71a02e0a20b7d0c1c030fa0772",
+        "commit": "9d7e3608a9d76f7c856af06e8367b48b519bb318",
+        "comment": "Model cleanup:  statics in HardwareInterface and \"pure\" on function.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-30T14:40:00Z#fc2b6efd-8eb8-440c-9be2-aa687d7d21ce"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#a7b512dc931b64d9285c8cb614e9b89453f6cde3"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#257e51f842c4cbb0717eedf7b3b44fdd0946088f",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/9d7e3608a9d76f7c856af06e8367b48b519bb318/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "257e51f842c4cbb0717eedf7b3b44fdd0946088f",
+        "commit": "9d7e3608a9d76f7c856af06e8367b48b519bb318",
+        "comment": "Model cleanup:  statics in HardwareInterface and \"pure\" on function.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-30T14:40:00Z#fc2b6efd-8eb8-440c-9be2-aa687d7d21ce"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#5138d929ad695034dbd95106b117c46fc5223949"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#c2945e4b377b79551b23c61929f0a101350e9a46",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/51c776d9e1ca291915df2d517da01159ab64e4e8/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "c2945e4b377b79551b23c61929f0a101350e9a46",
+        "commit": "51c776d9e1ca291915df2d517da01159ab64e4e8",
+        "comment": "Cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-30T13:17:21Z#8bf10490-122a-4182-a1ca-7158e384c9c8"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#116683412981f9483c9bb271161f08bc7a4b671b"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#1d7fdbb91b8718b565111607df48873b52330fa7",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/51c776d9e1ca291915df2d517da01159ab64e4e8/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "1d7fdbb91b8718b565111607df48873b52330fa7",
+        "commit": "51c776d9e1ca291915df2d517da01159ab64e4e8",
+        "comment": "Cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-30T13:17:21Z#8bf10490-122a-4182-a1ca-7158e384c9c8"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#5138d929ad695034dbd95106b117c46fc5223949"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/CSV.vdmrt#0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22/Models/FCUController/lib/CSV.vdmrt",
+        "path": "Models/FCUController/lib/CSV.vdmrt",
+        "hash": "0",
+        "commit": "a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22",
+        "comment": "Initial cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-29T16:42:28Z#20b9299b-7d6a-475d-a255-9334f5859048"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/CSV.vdmrt#d9a818f1f9fd0f3ee7b0edaccec6dd2c8c633954"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/IO.vdmrt#0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22/Models/FCUController/lib/IO.vdmrt",
+        "path": "Models/FCUController/lib/IO.vdmrt",
+        "hash": "0",
+        "commit": "a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22",
+        "comment": "Initial cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-29T16:42:28Z#20b9299b-7d6a-475d-a255-9334f5859048"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/IO.vdmrt#e7529aae6b0120620c6f025af5d85be3bd8e20b2"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/Reflect.vdmrt#0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22/Models/FCUController/lib/Reflect.vdmrt",
+        "path": "Models/FCUController/lib/Reflect.vdmrt",
+        "hash": "0",
+        "commit": "a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22",
+        "comment": "Initial cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-29T16:42:28Z#20b9299b-7d6a-475d-a255-9334f5859048"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/Reflect.vdmrt#a9d237d2530deea0c71b11a8eff8fb3809165848"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#116683412981f9483c9bb271161f08bc7a4b671b",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "116683412981f9483c9bb271161f08bc7a4b671b",
+        "commit": "a7eb77b0844a0f3f07a0793e6d50fdd213fe1e22",
+        "comment": "Initial cleanup for FMU export.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-29T16:42:28Z#20b9299b-7d6a-475d-a255-9334f5859048"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#a7b512dc931b64d9285c8cb614e9b89453f6cde3"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/Fmi.vdmrt#f9f94d580453308eb6d358663a6d931d3945e0e5",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/b81d0843674040b140c573d3b8027aabc8f9c4ae/Models/FCUController/lib/Fmi.vdmrt",
+        "path": "Models/FCUController/lib/Fmi.vdmrt",
+        "hash": "f9f94d580453308eb6d358663a6d931d3945e0e5",
+        "commit": "b81d0843674040b140c573d3b8027aabc8f9c4ae",
+        "comment": "Removing unused \"create\" function from Port class.",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-11-29T14:32:38Z#592c5d69-0651-4906-9c3f-acda4146d366"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/Fmi.vdmrt#6b7d76cb40c3e9d4e4cd00669c4ee7e4c8f22e9a"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#a7b512dc931b64d9285c8cb614e9b89453f6cde3",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/998b717f1109e161c9973a09c46b061132987f38/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "a7b512dc931b64d9285c8cb614e9b89453f6cde3",
+        "commit": "998b717f1109e161c9973a09c46b061132987f38",
+        "comment": "Update to VDM model and multi-model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#637e6ac3fd1d54affc9de05845c403daadbeb804"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#5138d929ad695034dbd95106b117c46fc5223949",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/998b717f1109e161c9973a09c46b061132987f38/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "5138d929ad695034dbd95106b117c46fc5223949",
+        "commit": "998b717f1109e161c9973a09c46b061132987f38",
+        "comment": "Update to VDM model and multi-model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#2c6f2a0e21e3acd3ffb76b0614d907c26983bf99"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/Fmi.vdmrt#6b7d76cb40c3e9d4e4cd00669c4ee7e4c8f22e9a",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/998b717f1109e161c9973a09c46b061132987f38/Models/FCUController/lib/Fmi.vdmrt",
+        "path": "Models/FCUController/lib/Fmi.vdmrt",
+        "hash": "6b7d76cb40c3e9d4e4cd00669c4ee7e4c8f22e9a",
+        "commit": "998b717f1109e161c9973a09c46b061132987f38",
+        "comment": "Update to VDM model and multi-model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/Fmi.vdmrt#ed0dd30ee3ceee97712c4750f074089e2a8beb81"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/CSV.vdmrt#d9a818f1f9fd0f3ee7b0edaccec6dd2c8c633954",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/998b717f1109e161c9973a09c46b061132987f38/Models/FCUController/lib/CSV.vdmrt",
+        "path": "Models/FCUController/lib/CSV.vdmrt",
+        "hash": "d9a818f1f9fd0f3ee7b0edaccec6dd2c8c633954",
+        "commit": "998b717f1109e161c9973a09c46b061132987f38",
+        "comment": "Update to VDM model and multi-model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/IO.vdmrt#e7529aae6b0120620c6f025af5d85be3bd8e20b2",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/998b717f1109e161c9973a09c46b061132987f38/Models/FCUController/lib/IO.vdmrt",
+        "path": "Models/FCUController/lib/IO.vdmrt",
+        "hash": "e7529aae6b0120620c6f025af5d85be3bd8e20b2",
+        "commit": "998b717f1109e161c9973a09c46b061132987f38",
+        "comment": "Update to VDM model and multi-model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Actuator.vdmrt#9ac09fc2ceacd137a9d51b2598e3530937716e1e",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/Actuator.vdmrt",
+        "path": "Models/FCUController/Actuator.vdmrt",
+        "hash": "9ac09fc2ceacd137a9d51b2598e3530937716e1e",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Actuator.vdmrt#a3d19381c07276a521d37575a5065b756288e888"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/ActuatorLimited.vdmrt#3ccf70be826549d59b5ea1145d73c9c64e1952dd",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/ActuatorLimited.vdmrt",
+        "path": "Models/FCUController/ActuatorLimited.vdmrt",
+        "hash": "3ccf70be826549d59b5ea1145d73c9c64e1952dd",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/ActuatorLimited.vdmrt#7e1273d96fbab84a8db3f0dbdddc4a4efa3df002"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#637e6ac3fd1d54affc9de05845c403daadbeb804",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "637e6ac3fd1d54affc9de05845c403daadbeb804",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#5327f04bf8ac0cc0fef36f056e889c6c986e27f1"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#2c6f2a0e21e3acd3ffb76b0614d907c26983bf99",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "2c6f2a0e21e3acd3ffb76b0614d907c26983bf99",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#4ce9f5fd067801617ef578de8127618571875407"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/MechanicalController.vdmrt#3fc933ab38d8c67239ae2b6ab82fbc3334c715d0",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/MechanicalController.vdmrt",
+        "path": "Models/FCUController/MechanicalController.vdmrt",
+        "hash": "3fc933ab38d8c67239ae2b6ab82fbc3334c715d0",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/MechanicalController.vdmrt#3fc933ab38d8c67239ae2b6ab82fbc3334c715d0"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Sensor.vdmrt#9ecda074f56dda009aa6a8ca1a82f879ed8ee753",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/Sensor.vdmrt",
+        "path": "Models/FCUController/Sensor.vdmrt",
+        "hash": "9ecda074f56dda009aa6a8ca1a82f879ed8ee753",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/Sensor.vdmrt#5877cef69606ab038214cbdccaeea9949c5ed2fa"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/System.vdmrt#2c64856043cec769a0994a7e6e51a733c27e1100",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/System.vdmrt",
+        "path": "Models/FCUController/System.vdmrt",
+        "hash": "2c64856043cec769a0994a7e6e51a733c27e1100",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/System.vdmrt#6e436bf159c640ab2e8152820bdfde81dd061cc2"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/World.vdmrt#bc7f4b9b0b6d4cd6dd37f8380dcba94f48d20d96",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/World.vdmrt",
+        "path": "Models/FCUController/World.vdmrt",
+        "hash": "bc7f4b9b0b6d4cd6dd37f8380dcba94f48d20d96",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/World.vdmrt#bc7f4b9b0b6d4cd6dd37f8380dcba94f48d20d96"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/Reflect.vdmrt#a9d237d2530deea0c71b11a8eff8fb3809165848",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/lib/Reflect.vdmrt",
+        "path": "Models/FCUController/lib/Reflect.vdmrt",
+        "hash": "a9d237d2530deea0c71b11a8eff8fb3809165848",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.file:Models/FCUController/lib/Reflect.vdmrt#a9d237d2530deea0c71b11a8eff8fb3809165848"}]},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/lib/Fmi.vdmrt#ed0dd30ee3ceee97712c4750f074089e2a8beb81",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/3d8319ff91c3eed71a17ac59b844a72d4ba633f3/Models/FCUController/lib/Fmi.vdmrt",
+        "path": "Models/FCUController/lib/Fmi.vdmrt",
+        "hash": "ed0dd30ee3ceee97712c4750f074089e2a8beb81",
+        "commit": "3d8319ff91c3eed71a17ac59b844a72d4ba633f3",
+        "comment": "Initial new VDM-RT export",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Actuator.vdmrt#a3d19381c07276a521d37575a5065b756288e888",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/Actuator.vdmrt",
+        "path": "Models/FCUController/Actuator.vdmrt",
+        "hash": "a3d19381c07276a521d37575a5065b756288e888",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/ActuatorLimited.vdmrt#7e1273d96fbab84a8db3f0dbdddc4a4efa3df002",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/ActuatorLimited.vdmrt",
+        "path": "Models/FCUController/ActuatorLimited.vdmrt",
+        "hash": "7e1273d96fbab84a8db3f0dbdddc4a4efa3df002",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Controller.vdmrt#5327f04bf8ac0cc0fef36f056e889c6c986e27f1",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/Controller.vdmrt",
+        "path": "Models/FCUController/Controller.vdmrt",
+        "hash": "5327f04bf8ac0cc0fef36f056e889c6c986e27f1",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/HardwareInterface.vdmrt#4ce9f5fd067801617ef578de8127618571875407",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/HardwareInterface.vdmrt",
+        "path": "Models/FCUController/HardwareInterface.vdmrt",
+        "hash": "4ce9f5fd067801617ef578de8127618571875407",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/Sensor.vdmrt#5877cef69606ab038214cbdccaeea9949c5ed2fa",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/Sensor.vdmrt",
+        "path": "Models/FCUController/Sensor.vdmrt",
+        "hash": "5877cef69606ab038214cbdccaeea9949c5ed2fa",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        },
+        {
+        "rdf:about": "Entity.file:Models/FCUController/System.vdmrt#6e436bf159c640ab2e8152820bdfde81dd061cc2",
+        "url": "https://raw.githubusercontent.com/into-cps/case-study_fcu/723be57d3b643707690bb6162d2e17093e039b11/Models/FCUController/System.vdmrt",
+        "path": "Models/FCUController/System.vdmrt",
+        "hash": "6e436bf159c640ab2e8152820bdfde81dd061cc2",
+        "commit": "723be57d3b643707690bb6162d2e17093e039b11",
+        "comment": "Added models, FMUs and SysML model",
+        "type": "file",
+        "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8"}},
+        "prov:hasMember": []
+        }
+    ],
+    "prov:Activity": [
+        {
+        "rdf:about": "Activity.modelModification:2017-05-11T13:48:03Z#dd7d383a-f6ce-4408-8b2e-efa5955d4b4e",
+        "time": "2017-05-11T13:48:03Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2017-03-28T14:58:23Z#1caf5cb4-8fc9-4f67-93b1-86d5235f7ed3",
+        "time": "2017-03-28T14:58:23Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-03-28T13:35:18Z#b077264f-9f3c-42ad-9107-c35aee50be51",
+        "time": "2017-03-28T13:35:18Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.2.1-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-03-28T08:49:12Z#a286dd03-7b2c-4926-bbe0-b227e421cbe9",
+        "time": "2017-03-28T08:49:12Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.2.1-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2017-03-09T13:32:47Z#ae6a371a-1195-4814-bff1-7a3fc5a660fc",
+        "time": "2017-03-09T13:32:47Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2017-01-31T10:51:58Z#9459a355-7312-43cf-b7a6-07f2b6b6649c",
+        "time": "2017-01-31T10:51:58Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-31T10:28:01Z#afcca389-87b3-426f-9baf-9fdd7b372a62",
+        "time": "2017-01-31T10:28:01Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.6"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2017-01-23T19:37:24Z#bb454da6-e3a8-4cd2-a9f0-a8fb7bfa1be7",
+        "time": "2017-01-23T19:37:24Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:23:09Z#cbb03e9e-4b63-432d-99de-e0b366fa8ae0",
+        "time": "2017-01-23T18:23:09Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:20:37Z#f52f7009-318f-4061-b421-d6a10149323a",
+        "time": "2017-01-23T18:20:37Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:19:10Z#1187f8da-5acd-45db-9a93-4b03e113e801",
+        "time": "2017-01-23T18:19:10Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:18:54Z#cb0eacf9-9c24-40be-a0b2-f0387fb9b9c5",
+        "time": "2017-01-23T18:18:54Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T13:07:41Z#b8c816d9-c235-4d94-835d-ecdb6ce175a3",
+        "time": "2017-01-23T13:07:41Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:39:46Z#7bbc4dec-de45-4147-bcae-866520d3db04",
+        "time": "2017-01-23T12:39:46Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:34:21Z#660a8868-d302-4881-bf83-e50c419ecb19",
+        "time": "2017-01-23T12:34:21Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:26:30Z#f5ea9432-37a7-4fdc-b579-4eb62414798d",
+        "time": "2017-01-23T12:26:30Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:26:13Z#201bd80d-0f32-4cc0-8027-59f049b50a29",
+        "time": "2017-01-23T12:26:13Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:05:05Z#299d609f-4917-4225-b8e6-0d36e9213ecb",
+        "time": "2017-01-23T12:05:05Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T09:28:50Z#66b6eb1f-7170-4b7b-a046-52847a4adadd",
+        "time": "2017-01-23T09:28:50Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T09:27:33Z#9d8cc477-21f8-4ca4-a28b-ef30513199a4",
+        "time": "2017-01-23T09:27:33Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2017-01-23T19:26:54Z#26269613-4ba1-4b4c-8f7c-890e05fa65ac",
+        "time": "2017-01-23T19:26:54Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:23:09Z#ae4ea20b-e159-498e-a8a3-64a6c95173dd",
+        "time": "2017-01-23T18:23:09Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:20:37Z#66a1190d-86d6-4bda-bae4-5585ece56c05",
+        "time": "2017-01-23T18:20:37Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:19:10Z#b233a793-a2e0-4d26-abcd-8d5699233f80",
+        "time": "2017-01-23T18:19:10Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T18:18:54Z#f11d9e95-a934-4af0-afa3-7786c131e0e6",
+        "time": "2017-01-23T18:18:54Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T13:07:41Z#649c5475-93a2-499c-8e43-72fc3f67cc86",
+        "time": "2017-01-23T13:07:41Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:39:46Z#3891dca1-1cc9-4664-9118-66c5124a1517",
+        "time": "2017-01-23T12:39:46Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:34:21Z#d2b22247-6bde-4e0a-92c2-8b9c99bdca25",
+        "time": "2017-01-23T12:34:21Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:26:30Z#8840a460-717b-4bd0-8526-d5589cc88def",
+        "time": "2017-01-23T12:26:30Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:26:13Z#4677792e-edeb-431b-9920-93894625088c",
+        "time": "2017-01-23T12:26:13Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T12:05:05Z#4bace213-d63b-4865-971a-88e3eddbba4e",
+        "time": "2017-01-23T12:05:05Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T09:28:50Z#00e49134-18cf-474d-bf13-06f9bfa3f38b",
+        "time": "2017-01-23T09:28:50Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.fmuExport:2017-01-23T09:27:33Z#2b6f996c-7283-45b9-8c3d-fd2496204126",
+        "time": "2017-01-23T09:27:33Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:fmu-import-export:0.1.7-SNAPSHOT"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-11-30T14:40:00Z#fc2b6efd-8eb8-440c-9be2-aa687d7d21ce",
+        "time": "2016-11-30T14:40:00Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-11-30T13:17:21Z#8bf10490-122a-4182-a1ca-7158e384c9c8",
+        "time": "2016-11-30T13:17:21Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-11-29T16:42:28Z#20b9299b-7d6a-475d-a255-9334f5859048",
+        "time": "2016-11-29T16:42:28Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-11-29T14:32:38Z#592c5d69-0651-4906-9c3f-acda4146d366",
+        "time": "2016-11-29T14:32:38Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:vpb500@york.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-10-24T10:15:02Z#681d5926-61fe-4e1b-8954-0c38afae5020",
+        "time": "2016-10-24T10:15:02Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-08-12T15:07:52Z#9ba78578-f257-41ef-b927-54e04e944c11",
+        "time": "2016-08-12T15:07:52Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        },
+        {
+        "rdf:about": "Activity.modelModification:2016-06-01T10:30:37Z#4b0462ca-9812-4d0e-989d-808cae7f80b8",
+        "time": "2016-06-01T10:30:37Z",
+        "type": "simulationModelling",
+        "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:richard.payne@newcastle.ac.uk"}},
+        "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:Overture:2.4.0"}]}
+        }
+    ]
+    }}
