@@ -1,0 +1,74 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.4", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineTestObjectives:2017-09-12T10:31:17Z#fad242d0-281f-4dcf-b730-288fab12d29d", 
+                "time": "2017-09-12T10:31:17Z", 
+                "type": "defineTestObjectives"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "ad5827b8ab105f71ea36b10ba4401ae8", 
+                "path": "/home/oli/RTT-Prj/turn-ind", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestObjectives:2017-09-12T10:31:17Z#fad242d0-281f-4dcf-b730-288fab12d29d"
+                    }
+                }, 
+                "rdf:about": "Entity.file:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/TestProcedures/TP_DASH_BCS/conf/generation.mbtconf_PLUS_turn_DASH_ind/TestProcedures/TP_DASH_BCS/conf/signalmap.csv#c70eeec8757a09b4de76c10728813f9c8e793e74", 
+                "type": "file"
+            }, 
+            {
+                "hash": "df493d31b7a2594dd75c3378a9a196bc95e13170", 
+                "oslc:satisfies": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-005#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-006#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-008#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }
+                    ]
+                }, 
+                "path": "TurnIndicationController.fmu", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestObjectives:2017-09-12T10:31:17Z#fad242d0-281f-4dcf-b730-288fab12d29d"
+                    }
+                }, 
+                "rdf:about": "Entity.fmu:TurnIndicationController.fmu#df493d31b7a2594dd75c3378a9a196bc95e13170", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

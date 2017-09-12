@@ -1,0 +1,99 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.4", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-005#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-006#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-008#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/last_imported_model.xmi#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/model_DASH_details.html#d679f8bdfd2de9b55e6825b11cbaf3aa05f9f2ad"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/model_DASH_testcases.html#872d862c731b85abe2f9a1c95417c36fb9d93b46"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineTestModel:2017-09-12T10:31:12Z#d8229538-ecd3-40a3-9395-12e5e912d861", 
+                "time": "2017-09-12T10:31:12Z", 
+                "type": "defineTestModel"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "c7ff231977c92cc1994b8f636c69c8be", 
+                "path": "/home/oli/RTT-Prj/turn-ind", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestModel:2017-09-12T10:31:12Z#d8229538-ecd3-40a3-9395-12e5e912d861"
+                    }
+                }, 
+                "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/last_imported_model.xmi#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "file"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-002#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-005#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-006#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-008#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "d679f8bdfd2de9b55e6825b11cbaf3aa05f9f2ad", 
+                "path": "turn-ind/model/model-details.html", 
+                "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/model_DASH_details.html#d679f8bdfd2de9b55e6825b11cbaf3aa05f9f2ad", 
+                "type": "file"
+            }, 
+            {
+                "hash": "872d862c731b85abe2f9a1c95417c36fb9d93b46", 
+                "path": "turn-ind/model/model-testcases.html", 
+                "rdf:about": "Entity.designNoteFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/model_DASH_testcases.html#872d862c731b85abe2f9a1c95417c36fb9d93b46", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
