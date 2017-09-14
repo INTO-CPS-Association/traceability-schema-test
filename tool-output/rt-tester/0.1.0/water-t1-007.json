@@ -1,0 +1,128 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.testConfiguration:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/.requirement_DASH_tracing.json#d3d60ba8c5bad269085b4b2c175b18d6cf0bce3d"
+                        }, 
+                        {
+                            "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/water_DASH_t1/RTT_TestProcedures/SUT/INTO_DASH_CPS_DASH_Demo_sut.fmu#9fca88966f98ab21b1ab31cbe72eb541255d487d"
+                        }, 
+                        {
+                            "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/INTO_DASH_CPS_DASH_Demo.fmu#c4486a48b700558dc267c12948d1fc6779696a8d"
+                        }, 
+                        {
+                            "rdf:about": "Entity.coSimulationEngine:0.2.6"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.runTest:2017-09-14T14:37:53Z#97ec2050-ac21-4092-a6dc-7f9f4d81bcf2", 
+                "time": "2017-09-14T14:37:53Z", 
+                "type": "runTest"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "39ad47017ed22b4fa3ad018d068de005", 
+                "into:violates": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }
+                    ]
+                }, 
+                "oslc:verifies": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-003#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }
+                    ]
+                }, 
+                "path": "/home/oli/RTT-Prj/water-t1", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runTest:2017-09-14T14:37:53Z#97ec2050-ac21-4092-a6dc-7f9f4d81bcf2"
+                    }
+                }, 
+                "rdf:about": "Entity.testExecutionResult:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/test_DASH_case_DASH_summary.html_PLUS_water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/requirement_DASH_tracing.html_PLUS_water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/testdata/signals.dat#a6c8e2235cf48ea18abac27e6c5a82bcb0a118d9", 
+                "type": "file"
+            }, 
+            {
+                "hash": "e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "path": "water-t1", 
+                "rdf:about": "Entity.requirement:REQ-001#e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "path": "water-t1", 
+                "rdf:about": "Entity.requirement:REQ-002#e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "path": "water-t1", 
+                "rdf:about": "Entity.requirement:REQ-003#e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "path": "water-t1", 
+                "rdf:about": "Entity.requirement:REQ-004#e6f8c2b0b8caa9322084acac5219edc0378e80b4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "d3d60ba8c5bad269085b4b2c175b18d6cf0bce3d", 
+                "path": "water-t1/RTT_TestProcedures/TP-TR/.requirement-tracing.json", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runTest:2017-09-14T14:37:53Z#97ec2050-ac21-4092-a6dc-7f9f4d81bcf2"
+                    }
+                }, 
+                "rdf:about": "Entity.testConfiguration:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/.requirement_DASH_tracing.json#d3d60ba8c5bad269085b4b2c175b18d6cf0bce3d", 
+                "type": "file"
+            }, 
+            {
+                "hash": "9fca88966f98ab21b1ab31cbe72eb541255d487d", 
+                "path": "/home/oli/RTT-Prj/water-t1/RTT_TestProcedures/SUT/INTO-CPS-Demo_sut.fmu", 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/water_DASH_t1/RTT_TestProcedures/SUT/INTO_DASH_CPS_DASH_Demo_sut.fmu#9fca88966f98ab21b1ab31cbe72eb541255d487d", 
+                "type": "fmu"
+            }, 
+            {
+                "hash": "c4486a48b700558dc267c12948d1fc6779696a8d", 
+                "path": "/home/oli/RTT-Prj/water-t1/RTT_TestProcedures/TP-TR/INTO-CPS-Demo.fmu", 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/water_DASH_t1/RTT_TestProcedures/TP_DASH_TR/INTO_DASH_CPS_DASH_Demo.fmu#c4486a48b700558dc267c12948d1fc6779696a8d", 
+                "type": "fmu"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

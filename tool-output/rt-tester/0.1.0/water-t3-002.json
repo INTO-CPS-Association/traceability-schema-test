@@ -1,0 +1,21 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Entity": [
+            {
+                "name": "RT-Tester Core Test Tool [INTO-CPS release]", 
+                "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14", 
+                "type": "Test Automation Tool", 
+                "version": "6.0-6.1.14"
+            }, 
+            {
+                "name": "RT-Tester Model-Based Test Case and Test Data Generator (RTT-MBT) [INTO-CPS release]", 
+                "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14", 
+                "type": "Model Checking Tool", 
+                "version": "9.0-1.5.14"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

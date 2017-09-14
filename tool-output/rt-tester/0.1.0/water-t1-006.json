@@ -1,0 +1,74 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineTestObjectives:2017-09-14T14:37:33Z#a39a0a46-2823-4628-a0e5-d3af51cbeb57", 
+                "time": "2017-09-14T14:37:33Z", 
+                "type": "defineTestObjectives"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "3aadb59ef82c7b70e648ebf8171cb57e", 
+                "path": "/home/oli/RTT-Prj/water-t1", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestObjectives:2017-09-14T14:37:33Z#a39a0a46-2823-4628-a0e5-d3af51cbeb57"
+                    }
+                }, 
+                "rdf:about": "Entity.testConfiguration:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/TestProcedures/TP_DASH_TR/conf/generation.mbtconf_PLUS_water_DASH_t1/TestProcedures/TP_DASH_TR/conf/signalmap.csv#b848c913522866acd9b3269f94d49a3a5a149fd9", 
+                "type": "file"
+            }, 
+            {
+                "hash": "c4486a48b700558dc267c12948d1fc6779696a8d", 
+                "oslc:satisfies": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-003#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-004#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }
+                    ]
+                }, 
+                "path": "INTO-CPS-Demo.fmu", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineTestObjectives:2017-09-14T14:37:33Z#a39a0a46-2823-4628-a0e5-d3af51cbeb57"
+                    }
+                }, 
+                "rdf:about": "Entity.fmu:INTO-CPS-Demo.fmu#c4486a48b700558dc267c12948d1fc6779696a8d", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

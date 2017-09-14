@@ -1,0 +1,59 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/model/last_imported_model.xmi#b6ec8d5036967c21f55510e7066dc2b0debf5b53"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelPortionConfiguration:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/TestProcedures/Sim_DASH_AllTanks/conf/generation.mbtconf#9da8534433fe1e6eddcb29dfa3963b4607366788"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.modelPortionFMUExport:2017-09-14T14:32:24Z#8e014f47-97f2-467a-8cbc-16e47d6183dc", 
+                "time": "2017-09-14T14:32:24Z", 
+                "type": "modelPortionFMUExport"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "d41d8cd98f00b204e9800998ecf8427e", 
+                "path": "/home/oli/RTT-Prj/water-t3", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.modelPortionFMUExport:2017-09-14T14:32:24Z#8e014f47-97f2-467a-8cbc-16e47d6183dc"
+                    }
+                }, 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/RTT_TestProcedures/Sim_DASH_AllTanks/INTO_DASH_CPS_DASH_Demo_sut.fmu#aa2285cb326ad690c3784c8b5a1ad5ec26c1c20e", 
+                "type": "fmu"
+            }, 
+            {
+                "hash": "9da8534433fe1e6eddcb29dfa3963b4607366788", 
+                "path": "water-t3/TestProcedures/Sim-AllTanks/conf/generation.mbtconf", 
+                "rdf:about": "Entity.modelPortionConfiguration:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t3/TestProcedures/Sim_DASH_AllTanks/conf/generation.mbtconf#9da8534433fe1e6eddcb29dfa3963b4607366788", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

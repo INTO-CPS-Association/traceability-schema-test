@@ -1,0 +1,59 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/model/last_imported_model.xmi#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelPortionConfiguration:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/TestProcedures/Simulation/conf/generation.mbtconf#6e9c6d5b3a7fb3e651eb380338d9fd8eca624fbc"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.modelPortionFMUExport:2017-09-14T14:28:22Z#49588ec0-12c7-472e-b6b8-b689deb1dce0", 
+                "time": "2017-09-14T14:28:22Z", 
+                "type": "modelPortionFMUExport"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "d41d8cd98f00b204e9800998ecf8427e", 
+                "path": "/home/oli/RTT-Prj/turn-ind", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.modelPortionFMUExport:2017-09-14T14:28:22Z#49588ec0-12c7-472e-b6b8-b689deb1dce0"
+                    }
+                }, 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/RTT_TestProcedures/Simulation/TurnIndicationController_simulation.fmu#6fb7b5c279c0fd89a4bdc882b04f882aa9866360", 
+                "type": "fmu"
+            }, 
+            {
+                "hash": "6e9c6d5b3a7fb3e651eb380338d9fd8eca624fbc", 
+                "path": "turn-ind/TestProcedures/Simulation/conf/generation.mbtconf", 
+                "rdf:about": "Entity.modelPortionConfiguration:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/TestProcedures/Simulation/conf/generation.mbtconf#6e9c6d5b3a7fb3e651eb380338d9fd8eca624fbc", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

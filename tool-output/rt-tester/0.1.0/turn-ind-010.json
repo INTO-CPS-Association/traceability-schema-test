@@ -1,0 +1,51 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.file:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/Simulation/model/modelDescription.xml#f942af12340446b459fe9493fcc4ee59c4be344f"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.mockupFMUCreation:2017-09-14T14:28:42Z#0d367722-ca7d-4bbe-9aed-8c7612fba6ff", 
+                "time": "2017-09-14T14:28:42Z", 
+                "type": "mockupFMUCreation"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "d41d8cd98f00b204e9800998ecf8427e", 
+                "path": "/home/oli/RTT-Prj/turn-ind", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.mockupFMUCreation:2017-09-14T14:28:42Z#0d367722-ca7d-4bbe-9aed-8c7612fba6ff"
+                    }
+                }, 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/RTT_TestProcedures/HW_SUT/TurnIndicationController_sut.fmu#25cda09dfe03dda1b1a57c5f873745de186a4f36", 
+                "type": "fmu"
+            }, 
+            {
+                "hash": "f942af12340446b459fe9493fcc4ee59c4be344f", 
+                "path": "/home/oli/RTT-Prj/turn-ind/RTT_TestProcedures/Simulation/model/modelDescription.xml", 
+                "rdf:about": "Entity.file:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/Simulation/model/modelDescription.xml#f942af12340446b459fe9493fcc4ee59c4be344f", 
+                "type": "modelDescriptionFile"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/model/last_imported_model.xmi#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelCheckingQuery:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/Q1/query.json#af5d978d64446ed1eba82b5ac8eba184ce9c2e01"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.runMCQuery:2017-09-11T08:23:33Z#a486ab47-2836-43c9-8cd9-c03dafa21fbc", 
+                "time": "2017-09-11T08:23:33Z", 
+                "type": "runMCQuery"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "b781c2384f6161bfe6b6b12353f09398", 
+                "oslc:verifies": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#e6f8c2b0b8caa9322084acac5219edc0378e80b4"
+                        }
+                    ]
+                }, 
+                "path": "/home/oli/RTT-Prj/water-t1", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runMCQuery:2017-09-11T08:23:33Z#a486ab47-2836-43c9-8cd9-c03dafa21fbc"
+                    }
+                }, 
+                "rdf:about": "Entity.modelCheckingResult:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/Q1/.model_DASH_checking_DASH_report.json#8b8469a8f29896db112c819012dd1c36bbf9e9e3", 
+                "type": "modelCheckResult"
+            }, 
+            {
+                "hash": "af5d978d64446ed1eba82b5ac8eba184ce9c2e01", 
+                "path": "water-t1/Q1/query.json", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runMCQuery:2017-09-11T08:23:33Z#a486ab47-2836-43c9-8cd9-c03dafa21fbc"
+                    }
+                }, 
+                "rdf:about": "Entity.modelCheckingQuery:/home/oli/RTT_DASH_Prj_COLON_water_DASH_t1/Q1/query.json#af5d978d64446ed1eba82b5ac8eba184ce9c2e01", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

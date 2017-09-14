@@ -1,0 +1,112 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.1.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.0-1.5.14"
+                        }, 
+                        {
+                            "rdf:about": "Entity.testConfiguration:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/.requirement_DASH_tracing.json#a224790016d69bedd306aa9d1e7458fe44b68f9c"
+                        }, 
+                        {
+                            "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/TurnIndicationController.fmu#5ffb5b91bc1271bb651e5a51690d9929ce6eec37"
+                        }, 
+                        {
+                            "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/SUT/TurnIndicationController_sut.fmu#03b529b3858c7d6dfbd4ae47e74c0ac1f3b1b5ac"
+                        }, 
+                        {
+                            "rdf:about": "Entity.coSimulationEngine:0.2.6"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.runTest:2017-09-14T14:30:36Z#b7603f13-ce88-4998-9c73-5a1ae8fb1b5a", 
+                "time": "2017-09-14T14:30:36Z", 
+                "type": "runTest"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "6625b21fe6041bfefa54a32aee461d60", 
+                "into:violates": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#c1c3ff27f8b518d12cce60192526910ba806e4e4"
+                        }
+                    ]
+                }, 
+                "path": "/home/oli/RTT-Prj/turn-ind", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runTest:2017-09-14T14:30:36Z#b7603f13-ce88-4998-9c73-5a1ae8fb1b5a"
+                    }
+                }, 
+                "rdf:about": "Entity.testExecutionResult:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/test_DASH_case_DASH_summary.html_PLUS_turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/requirement_DASH_tracing.html_PLUS_turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/testdata/signals.dat#a572d5dbbaa71d9ed58ae1c4a636530a463da819", 
+                "type": "file"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-008#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-002#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "path": "turn-ind", 
+                "rdf:about": "Entity.requirement:REQ-005#c1c3ff27f8b518d12cce60192526910ba806e4e4", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "a224790016d69bedd306aa9d1e7458fe44b68f9c", 
+                "path": "turn-ind/RTT_TestProcedures/TP-TR/.requirement-tracing.json", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:oli@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runTest:2017-09-14T14:30:36Z#b7603f13-ce88-4998-9c73-5a1ae8fb1b5a"
+                    }
+                }, 
+                "rdf:about": "Entity.testConfiguration:/home/oli/RTT_DASH_Prj_COLON_turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/.requirement_DASH_tracing.json#a224790016d69bedd306aa9d1e7458fe44b68f9c", 
+                "type": "file"
+            }, 
+            {
+                "hash": "5ffb5b91bc1271bb651e5a51690d9929ce6eec37", 
+                "path": "/home/oli/RTT-Prj/turn-ind/RTT_TestProcedures/TP-TR/TurnIndicationController.fmu", 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/TP_DASH_TR/TurnIndicationController.fmu#5ffb5b91bc1271bb651e5a51690d9929ce6eec37", 
+                "type": "fmu"
+            }, 
+            {
+                "hash": "03b529b3858c7d6dfbd4ae47e74c0ac1f3b1b5ac", 
+                "path": "/home/oli/RTT-Prj/turn-ind/RTT_TestProcedures/SUT/TurnIndicationController_sut.fmu", 
+                "rdf:about": "Entity.fmu:/home/oli/RTT_DASH_Prj_COLON_/home/oli/RTT_DASH_Prj/turn_DASH_ind/RTT_TestProcedures/SUT/TurnIndicationController_sut.fmu#03b529b3858c7d6dfbd4ae47e74c0ac1f3b1b5ac", 
+                "type": "fmu"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
