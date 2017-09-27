@@ -1,0 +1,38 @@
+{"rdf:RDF" : {
+      "xmlns:rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xmlns:prov": "http://www.w3.org/ns/prov#",
+      "messageFormatVersion": "1.4",
+      "prov:Entity": [
+            {
+            "rdf:about": "Entity.softwareTool:OpenModelica: v1.13.0-dev-45-g415de24 (64-bit)",
+            "type": "Simulation Tool",
+            "version": "OpenModelica",
+            "name": "OpenModelica"
+            },
+            {
+            "rdf:about" : "Entity.modelFile:OpenModelica/Models/SensorBlock2.mo#cc4536ecb30ba1955a38528735ff0de28fa42b4b",
+            "type" : "modelFile",
+            "path" : "OpenModelica/Models/SensorBlock2.mo",
+            "hash" : "cc4536ecb30ba1955a38528735ff0de28fa42b4b",
+            "prov:wasAttributedTo": {"prov:Agent": {"rdf:about": "Agent:alachew.mengist@liu.se"}},
+            "prov:wasGeneratedBy": {"prov:Activity": {"rdf:about": "Activity.modelModification:2017-09-26T20:06:26Z#5b4a718f-75ff-49e8-9f6a-96d4e40274d1"}},
+            "prov:wasDerivedFrom": {"prov:Entity": [{"rdf:about": "Entity.modelFile:OpenModelica/Models/SensorBlock2.mo#cc4536ecb30ba1955a38528735ff0de28fa42b4b"}]}
+            }
+      ],
+      "prov:Agent": [
+            {
+            "rdf:about": "Agent:alachew.mengist@liu.se",
+            "name": "Alachew",
+            "email": "alachew.mengist@liu.se"
+            }
+     ],
+     "prov:Activity": [
+            {
+            "time": "2016-09-19T13:53:06Z",
+            "type": "modelModification",
+            "prov:wasAssociatedWith": {"prov:Agent": {"rdf:about": "Agent:alachew.mengist@liu.se"}},
+            "prov:used": {"prov:Entity": [{"rdf:about": "Entity.softwareTool:OpenModelica: v1.13.0-dev-45-g415de24 (64-bit)"}]},
+            "rdf:about": "Activity.modelModification:2017-09-26T20:06:26Z#5b4a718f-75ff-49e8-9f6a-96d4e40274d1"
+            }
+     ]
+}}
