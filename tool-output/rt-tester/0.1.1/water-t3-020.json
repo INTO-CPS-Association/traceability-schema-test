@@ -1,0 +1,71 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.2-1.0.6"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/last_imported_model.xmi#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelCheckingQuery:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/Q1/query.json#e43ce54ab0428f5c0bb32b8894ffd326facacb70"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:florian@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.runMCQuery:2017-11-22T17:22:25Z#57742a6c-b60b-4e17-83b3-d9634604bb7e", 
+                "time": "2017-11-22T17:22:25Z", 
+                "type": "runMCQuery"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "eb6fc0ea2d524e5cd8f8f0baab4f57bc", 
+                "oslc:verifies": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }
+                    ]
+                }, 
+                "path": "/home/florian/into-cps-projects/RT-Tester/Model-Checking/water-t3", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runMCQuery:2017-11-22T17:22:25Z#57742a6c-b60b-4e17-83b3-d9634604bb7e"
+                    }
+                }, 
+                "rdf:about": "Entity.modelCheckingResult:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/Q1/.model_DASH_checking_DASH_report.json#8acd42de6db93b6d1588455aa30c4e03f82173fb", 
+                "type": "modelCheckResult"
+            }, 
+            {
+                "hash": "e43ce54ab0428f5c0bb32b8894ffd326facacb70", 
+                "path": "water-t3/Q1/query.json", 
+                "prov:wasAttributedTo": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:florian@example.com"
+                    }
+                }, 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.runMCQuery:2017-11-22T17:22:25Z#57742a6c-b60b-4e17-83b3-d9634604bb7e"
+                    }
+                }, 
+                "rdf:about": "Entity.modelCheckingQuery:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/Q1/query.json#e43ce54ab0428f5c0bb32b8894ffd326facacb70", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

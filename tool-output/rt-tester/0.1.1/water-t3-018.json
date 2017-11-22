@@ -1,0 +1,99 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Activity": [
+            {
+                "prov:used": {
+                    "prov:Entity": [
+                        {
+                            "rdf:about": "Entity.softwareTool:rt-tester:6.0-6.5.0"
+                        }, 
+                        {
+                            "rdf:about": "Entity.softwareTool:rtt-mbt:9.2-1.0.6"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-001#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-002#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-003#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.requirement:REQ-004#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.modelFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/last_imported_model.xmi#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/model_DASH_details.html#fc827c44994999c3bf639a909a560aaa8b24938d"
+                        }, 
+                        {
+                            "rdf:about": "Entity.designNoteFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/model_DASH_testcases.html#4a9b112898509c2d4170be1992f4fcf96bc143bf"
+                        }
+                    ]
+                }, 
+                "prov:wasAssociatedWith": {
+                    "prov:Agent": {
+                        "rdf:about": "Agent:florian@example.com"
+                    }
+                }, 
+                "rdf:about": "Activity.defineMCModel:2017-11-22T17:21:52Z#906c45f7-3cae-4920-b1d1-0ac08bffcd35", 
+                "time": "2017-11-22T17:21:52Z", 
+                "type": "defineMCModel"
+            }
+        ], 
+        "prov:Entity": [
+            {
+                "hash": "233023d85d2c95b71418b72c3a0cf29d", 
+                "path": "/home/florian/into-cps-projects/RT-Tester/Model-Checking/water-t3", 
+                "prov:wasGeneratedBy": {
+                    "prov:Activity": {
+                        "rdf:about": "Activity.defineMCModel:2017-11-22T17:21:52Z#906c45f7-3cae-4920-b1d1-0ac08bffcd35"
+                    }
+                }, 
+                "rdf:about": "Entity.modelFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/last_imported_model.xmi#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "type": "file"
+            }, 
+            {
+                "hash": "a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-001#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-002#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-003#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "path": "water-t3", 
+                "rdf:about": "Entity.requirement:REQ-004#a0cde6c21bd2463c1f37d98de5dfcca5f01ab51b", 
+                "type": "requirement"
+            }, 
+            {
+                "hash": "fc827c44994999c3bf639a909a560aaa8b24938d", 
+                "path": "water-t3/model/model-details.html", 
+                "rdf:about": "Entity.designNoteFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/model_DASH_details.html#fc827c44994999c3bf639a909a560aaa8b24938d", 
+                "type": "file"
+            }, 
+            {
+                "hash": "4a9b112898509c2d4170be1992f4fcf96bc143bf", 
+                "path": "water-t3/model/model-testcases.html", 
+                "rdf:about": "Entity.designNoteFile:/home/florian/into_DASH_cps_DASH_projects/RT_DASH_Tester/Model_DASH_Checking_COLON_water_DASH_t3/model/model_DASH_testcases.html#4a9b112898509c2d4170be1992f4fcf96bc143bf", 
+                "type": "file"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}

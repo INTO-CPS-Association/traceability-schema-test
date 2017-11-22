@@ -1,0 +1,14 @@
+{
+    "rdf:RDF": {
+        "messageFormatVersion": "1.5", 
+        "prov:Agent": [
+            {
+                "email": "florian@example.com", 
+                "name": "Florian Lapschies", 
+                "rdf:about": "Agent:florian@example.com"
+            }
+        ], 
+        "xmlns:prov": "http://www.w3.org/ns/prov#", 
+        "xmlns:rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    }
+}
